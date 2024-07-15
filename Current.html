@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Current and Upcoming Projects</title>
+
+<script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Benjamin P. Richardson, Ph.D.</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Current.html">Current Projects</a>
+</li>
+<li>
+  <a href="Publications.html">Publications</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore"><strong>Current and Upcoming
+Projects</strong></h1>
+
+</div>
+
+
+<p><br />
+<br />
+</p>
+<div id="recent-research-in-the-microsoft-human-factors-lab"
+class="section level2">
+<h2><strong>Recent research in the Microsoft Human Factors
+Lab</strong></h2>
+<p><br />
+</p>
+<center>
+<img src="Images/HoloWork.jpg" width="400" /><br />
+
+</center>
+<p><br />
+</p>
+<p><strong>1.) Hololens Long Wear Comfort Research</strong><br />
+Designed a series of studies where participants wore a variety of
+Hololens prototypes and performed various activities that resemble
+front-line worker job duties. Participants were interrupted in regular
+intervals over the course of the three hour study sessions and asked to
+respond to a series of questions regarding their comfort, fatigue and
+perceptions regarding wearing the devices for a whole day shift. We also
+recorded a series of head scans using a 3DMD high resolution scanning
+camera array to document how the headsets sit on the head before and
+after work. This research provided important data that informed design
+changes in future Hololens devices that will be more balanced and
+comfortable for folks who may be able to utilize Hololens augmented
+reality during their workday.<br />
+</p>
+<p><br />
+</p>
+<center>
+<img src="Images/MilitaryHolo.jpg" width="400" /><br />
+
+</center>
+<p><br />
+</p>
+<p><strong>Military Hololens Research</strong><br />
+An important application of Hololens Augmented Reality is utilization in
+helmets of military personnel which may aid in identifying normally
+difficult to see stimuli and providing recommendation systems that
+improve efficiency and accuracy. To inform improvements of design we
+conducted a series of studies recruiting active military personel to don
+a variety of headset designs and perform a series of navigation tasks in
+a lab space. We recorded motion capture and EMG data to evaluate
+efficiency of performing tasks and muscle strain over time. After
+performing tasks, participants provided qualitative feedback regarding
+their experience and willingness to adopt the technology in the
+field.</p>
+<br />
+
+<center>
+<img src="Images/Touchpad.jpg" width="400" /><br />
+
+</center>
+<p><br />
+</p>
+<p><strong>2.) Microsoft Surface Haptic Feedback Research</strong> I
+work closely with the Microsoft Surface team to design studies that
+inform re-design and improvement of touchpad haptics. Most recently I
+designed a series of studies that recorded EMG while interacting with
+various haptic touchpad models using different waveform conditions to
+determine a distribution of how individuals respond to various haptic
+settings. I coupled this with individual differences in sound
+perception, user interviews and likert scale ratings to determine user
+thresholds for perceiving touchpad sounds, and preferences for haptic
+feedback of different haptic prototype devices.<br />
+</p>
+<p><strong>3.) Mixed Reality Desktops</strong> Other work at Microsoft
+involved designing user studies that examined computer desktop working
+behavior and utilization of larger more spacious environments via mixed
+reality. This involves examining how fast participants could complete
+simple navigation, search and selection tasks using different virtual
+desktop options. Qualitative data was also collected in the form of user
+interviews probing preferences for desktop arrangements.</p>
+<p><br />
+<br />
+</p>
+</div>
+<div id="academic-research-outside-work-at-microsoft"
+class="section level2">
+<h2><strong>Academic research outside work at Microsoft</strong></h2>
+<p>I am currently working on designing a series of experiments that will
+further examines action and perception feature repetition and hosting
+these studies on this page using <a
+href="https://pavlovia.org/">Pavlovia</a>.<br />
+</p>
+<p>The following are a couple of the studies which I am currently
+working on which will provide further information regarding how and what
+mechanisms are involved in resolving confusion that occurs when multiple
+actions are simultaneously activated.<br />
+<br />
+</p>
+<p>1.) <strong>Working Memory Manipulation</strong> - This is an
+expansion on the topics of my doctoral dissertation. Embedding a
+Sternberg letter recall task within our partial repetition task. The
+goal of this is to experimentally manipulate working memory load while
+also manipulating whether action features repeat or not between planned
+and intervening actions.</p>
+<p><br />
+</p>
+<p>2.) <strong>EEG recording during partial repetition task</strong> - I
+originally collected EEG data during our partial repetition task in
+2018, however there were some issues with the data and this required
+recollection which did not end up happening due to the COVID-19
+pandemic. If working memory processes are involved in the
+disentanglement of simultaneously activated action plan then we should
+easily be able to identify event related components and temporal
+frequency power changes related to working memory processes during
+execution of the intervening action in our partial repetition task.
+Additionally coupling EEG data with pupilometry data may provide
+important new information regarding how the brain and body recruit
+resources that allow for the fast adaptation to sudden unexpected
+environment changes.</p>
+<p><br />
+</p>
+<p>3.) <strong>Cooperative behavior and partial repetition
+costs</strong> - Research in cooperative action and embodied cognition
+show that observing others behaviors causes automatic mapping of others
+behavior onto our own action representation system. This embodiment has
+also beens shown to vary in intensity depending on how much on
+identifies with the person being observed (i.e., belonging to the same
+group, sharing attributes…). If observed actions are automatically
+mapped to our own action system, it is possible that partial repetition
+costs may be found for an individual completing an intervening action
+when a co-actor is planning a task that shares action features.</p>
+<p><br />
+</p>
+<p>4.) <strong>Sleep deprivation and partial repetition costs</strong> -
+Sleep deprivation has been show to dramatically impact the ability to
+make well informed decisions, maintain information in working memory,
+and respond quickly and appropriately in response to sudden changes.
+Therefore it is likely that individuals who are sleep deprived will show
+amplified partial repetition costs but this has yet to be explored.</p>
+<p><br />
+</p>
+<p>4.) <strong>Individual differences in partial repetition
+costs</strong> - our research examining hazard rates of intervening
+response times when action features are repeated showed some individuals
+tended to respond very fast and other tended to respond very slow to the
+intervening response. Interestingly, the fast participants showed
+complete elimination of partial repetition costs after repeated action
+training while the slow responders showed only reductions in partial
+repetition costs after training.</p>
+<p><br />
+</p>
+</div>
+<div id="new-publication-examining-hazard-rates-of-response-times"
+class="section level2">
+<h2><strong>New publication examining hazard rates of response
+times</strong></h2>
+<p>As noted in the “In Works” section of the “Publications” tab, I have
+been working on finalizing a paper demonstrating examination of hazard
+rates for response times can show how response activation changes over
+time and how this differs across conditions where action features
+overlap or do not. Application of hazard rates to examine response
+activation to day has not happened in the literature yet. Therefore,
+this paper will argue that examination of hazard rates can show
+important information that examination of traditional measures of
+response times (mean, median) cannot show.<br />
+<br />
+I will be posting some of the figures and captions soon to provide a
+sneak preview of what the paper will show.</p>
+<p><br />
+</p>
+</div>
+<div id="eye-tracking-and-pupilometry" class="section level2">
+<h2><strong>Eye tracking and pupilometry</strong></h2>
+<p>I have been conducting a series of studies at Microsoft using eye
+tracking and pupilometry to examine what people focus on when
+interacting with laptops and other digital devices. I am currently
+working on applying some of these methods to perceptual research related
+to attentional blindness when action features related to visual stimuli
+are repeated vs not repeated.</p>
+<p><br />
+</p>
+</div>
+<div id="creating-new-packages-in-python-and-r" class="section level2">
+<h2><strong>Creating new packages in Python and R</strong></h2>
+<p>My recent research has revealed that examining hazard rates of
+response times provides important information regarding how response
+activation changes over time. This is a relatively novel way of
+examining response times compared to the traditional methods of
+measuring central tendency such as mean or median. Its also possible to
+apply this method of analysis to other aspects of behavior such as EEG
+and EMG.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
