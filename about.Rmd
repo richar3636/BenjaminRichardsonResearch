@@ -109,7 +109,7 @@ I have been playing music via various instruments most of my life. I enjoy playi
 
 \
 
-<center>![](Images/BatcaveDisco.jpg){width="400"} 
+<center>![](Images/BatcaveDisco.JPG){width="400"} 
 
 </center>
 
