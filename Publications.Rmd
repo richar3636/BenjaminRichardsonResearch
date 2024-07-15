@@ -1,0 +1,46 @@
+---
+title: "**Peer Reviewed Publications**"
+output: html_document
+---
+\
+\
+
+## Check out my peer reviewed publications and publications I am currently working on. 
+
+\
+
+### Click on the images below to read the articles.
+\
+
+### **1.)** [![Article2022](Images/Article2022.png){width="700"}](Images/Articles/Fournier2022.pdf)
+
+<hr style="border:2px solid black">
+\
+\
+
+### **2.)** [![Article2021](Images/Article2021.png){width="700"}](Images/Articles/Fournier2021.pdf)
+
+<hr style="border:2px solid black">
+\
+\
+
+### **3.)** [![Article2020](Images/Article2020.png){width="700"}](Images/Articles/Richardson2020.pdf)
+
+<hr style="border:2px solid black">
+\
+\
+
+### **4.)** [![Article2012](Images/Article2012.png){width="700"}](Images/Articles/Jantzen2012.pdf)
+
+<hr style="border:2px solid black">
+\
+\
+
+
+
+
+
+
+
+
+

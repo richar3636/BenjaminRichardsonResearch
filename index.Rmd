@@ -1,0 +1,50 @@
+---
+title: "**Hello!**"
+output: html_document
+---
+
+```{=html}
+<script>
+   $(document).ready(function() {
+     $head = $('#header');
+     $head.prepend('<img src=\"Images/HeadshotFormal.jpg\" style=\"float: right;width: 250px;border-color: black; border-radius: 40px;padding:20px\"/>')
+   });
+</script>
+```
+\
+
+### **Welcome to my site!** 
+
+\
+Here you can learn about my professional life, my academic training, scientific research and hobbies/fun things I enjoy in my spare time. Hope you enjoy. Feel free to contact me via email or social media to connect.
+
+\
+\
+
+## **For context on my professional experience, check out my Resume and Cirriculum Vitae**
+
+\
+
+<center>
+
+[![Resume](Images/ResumeIcon.jpg){width="100"}](Images/Resume.pdf)                                                             [![Resume](Images/CVIcon.jpg){width="110"}](Images/CV.pdf)
+
+</center>
+\
+\
+\
+
+## **Check out my social media and project accounts**:
+
+<center>
+
+[![LinkedIn](Images/linkedinlogo.jpg){width="80"}](https://www.linkedin.com/in/benjamin-p-richardson-phd-11009938/)           [![GitHub](Images/Gitlogo.png){width="80"}](https://https://github.com/richar3636)                [![GoogleScholar](Images/gscholar.png){width="60"}](https://scholar.google.com/citations?user=e4Q4FIAAAAAJ&hl=en)                  [![ORCID](Images/Orcidlogo.png){width="60"}](https://orcid.org/0000-0002-7261-3223)                    [![ResearchGate](Images/researchgate.png){width="60"}](https://www.researchgate.net/profile/Benjamin-Richardson-3)
+
+</center>
+
+```{=html}
+<!-- For more information about simple R Markdown websites, please read the documentation at https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html.
+
+Please also note that simple R Markdown sites are _not_ based on **blogdown**. They are probably good for websites with only a few Rmd documents. For larger-scale and more sophisticated websites (such as blogs), you may want to use **blogdown** instead: https://github.com/rstudio/blogdown.
+-->
+```

@@ -1,0 +1,15 @@
+name: "Benjamin P. Richardson, Ph.D."
+navbar:
+  title: "Benjamin P. Richardson, Ph.D."
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Current Projects"
+      href: Current.html
+    - text: "Publications"
+      href: Publications.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
